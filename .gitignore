@@ -1,0 +1,15 @@
+.gitignore
+py_temp_func.py
+py_temp_func.py
+testtime.ipynb
+.*
+trec_eval.txt
+studentinfo.txt
+assignment-2/index/
+tokenisation
+tokenisation (copy)
+vocab.json
+vocabmap.json
+docmap.json
+reverse_vocab.json
+reversedocmap.json
