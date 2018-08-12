@@ -1,0 +1,11 @@
+{
+  "qrels": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "qrels",
+    "password": "1234",
+    "name": "qrels",
+    "connector": "mysql",
+    "user": "root"
+  }
+}

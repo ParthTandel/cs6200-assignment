@@ -1,0 +1,40 @@
+{
+  "name": "url_ratings",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "urlname": {
+      "type": "string",
+      "required": true
+    },
+    "accessor_id": {
+      "type": "number",
+      "required": true
+    },
+    "queryid": {
+      "type": "number",
+      "required": true
+    },
+    "query": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "accessor": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
