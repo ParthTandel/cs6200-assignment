@@ -109,7 +109,7 @@ Calaca.controller('calacaCtrl', ['calacaService', '$scope', '$location', '$http'
             {
 
               data["id"] =  $scope.val_ittr[i]["db_id"]
-              console.log(i, $scope.val_ittr[i]["id_ittr"])
+              // console.log(i, $scope.val_ittr[i]["id_ittr"])
 
               $http.put("http://localhost:3000/api/url_ratings", data)
              .then(
@@ -200,7 +200,7 @@ Calaca.controller('calacaCtrl', ['calacaService', '$scope', '$location', '$http'
                 query_split = $scope.query.split(" ");
                 for( word in query_split)
                 {
-                  console.log(query_split[word])
+                  // console.log(query_split[word])
                   hits["TEXT"] = hits["TEXT"].split(query_split[word]).join('<span class="search-highlight">'+ query_split[word] +'</span>')
 
                   // console.log(hits["TEXT"])
