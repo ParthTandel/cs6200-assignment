@@ -50,3 +50,16 @@ assignment-4/independence*
 
 assignment-4/HITS (copy).ipynb
 node_modules
+*.tgz
+*.npy
+*.npz
+assignment-7/trec07p
+assignment-6/tfidf_scores_test
+assignment-6/ml_scores
+assignment-6/feature_transition.py
+.gitignore
+
+assignment-5/create_qrel.py
+assignment-5/evaluation.py
+assignment-5/vertical_search_evaluation.py
+*.tar
